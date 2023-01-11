@@ -1,0 +1,20 @@
+PODS:
+  - ANActivityIndicator (1.2.0)
+  - ViewAnimator (3.1.0)
+
+DEPENDENCIES:
+  - ANActivityIndicator
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - ANActivityIndicator
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  ANActivityIndicator: 44a996931d0c554cf157b31056603b23bbdbe76a
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
+
+PODFILE CHECKSUM: 5acb59a8b2d33b7203890ba3e9c5f20a09551ae3
+
+COCOAPODS: 1.11.3

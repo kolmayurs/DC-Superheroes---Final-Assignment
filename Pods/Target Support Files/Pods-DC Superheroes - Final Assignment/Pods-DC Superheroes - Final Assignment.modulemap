@@ -1,0 +1,6 @@
+framework module Pods_DC_Superheroes___Final_Assignment {
+  umbrella header "Pods-DC Superheroes - Final Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

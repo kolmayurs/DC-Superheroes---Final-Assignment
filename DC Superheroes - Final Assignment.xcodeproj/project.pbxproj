@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		B008F2772962B263003AE5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008F2762962B263003AE5F1 /* AppDelegate.swift */; };
 		B008F2792962B263003AE5F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008F2782962B263003AE5F1 /* SceneDelegate.swift */; };
-		B008F27B2962B263003AE5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008F27A2962B263003AE5F1 /* ViewController.swift */; };
-		B008F27E2962B263003AE5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B008F27C2962B263003AE5F1 /* Main.storyboard */; };
+		B008F27B2962B263003AE5F1 /* DCSuperheroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B008F27A2962B263003AE5F1 /* DCSuperheroesViewController.swift */; };
 		B008F2802962B264003AE5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B008F27F2962B264003AE5F1 /* Assets.xcassets */; };
 		B008F2832962B264003AE5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B008F2812962B264003AE5F1 /* LaunchScreen.storyboard */; };
+		B04C67C92962FDDD006462AF /* DCSuperheroesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C67C82962FDDD006462AF /* DCSuperheroesTableViewCell.swift */; };
+		B06852E72964A07200ECF441 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06852E62964A07200ECF441 /* APICaller.swift */; };
+		B06852E9296748AC00ECF441 /* ErrorScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06852E8296748AC00ECF441 /* ErrorScreenViewController.swift */; };
+		B06852ED2968148900ECF441 /* DCSuperHeroesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06852EC2968148900ECF441 /* DCSuperHeroesDetailsViewController.swift */; };
+		B06852EF2968255000ECF441 /* DCSuperheroesTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06852EE2968255000ECF441 /* DCSuperheroesTableViewModel.swift */; };
+		B06852F5296831F000ECF441 /* SuperHeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06852F4296831F000ECF441 /* SuperHeroesModel.swift */; };
+		BAE6A29460901D03B9A108F6 /* Pods_DC_Superheroes___Final_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F32FB719B4A4B3BA87E65 /* Pods_DC_Superheroes___Final_Assignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		574417B58CBC32AC048E86F0 /* Pods-DC Superheroes - Final Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DC Superheroes - Final Assignment.debug.xcconfig"; path = "Target Support Files/Pods-DC Superheroes - Final Assignment/Pods-DC Superheroes - Final Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		B008F2732962B263003AE5F1 /* DC Superheroes - Final Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DC Superheroes - Final Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B008F2762962B263003AE5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B008F2782962B263003AE5F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B008F27A2962B263003AE5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B008F27D2962B263003AE5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B008F27A2962B263003AE5F1 /* DCSuperheroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSuperheroesViewController.swift; sourceTree = "<group>"; };
 		B008F27F2962B264003AE5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B008F2822962B264003AE5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B008F2842962B264003AE5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04C67C82962FDDD006462AF /* DCSuperheroesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSuperheroesTableViewCell.swift; sourceTree = "<group>"; };
+		B06852E62964A07200ECF441 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		B06852E8296748AC00ECF441 /* ErrorScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreenViewController.swift; sourceTree = "<group>"; };
+		B06852EC2968148900ECF441 /* DCSuperHeroesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSuperHeroesDetailsViewController.swift; sourceTree = "<group>"; };
+		B06852EE2968255000ECF441 /* DCSuperheroesTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSuperheroesTableViewModel.swift; sourceTree = "<group>"; };
+		B06852F4296831F000ECF441 /* SuperHeroesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroesModel.swift; sourceTree = "<group>"; };
+		B423A82C2CE65DB263194FB0 /* Pods-DC Superheroes - Final Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DC Superheroes - Final Assignment.release.xcconfig"; path = "Target Support Files/Pods-DC Superheroes - Final Assignment/Pods-DC Superheroes - Final Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		C37F32FB719B4A4B3BA87E65 /* Pods_DC_Superheroes___Final_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_DC_Superheroes___Final_Assignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE6A29460901D03B9A108F6 /* Pods_DC_Superheroes___Final_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1771E9EA8F477CD450AC1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				574417B58CBC32AC048E86F0 /* Pods-DC Superheroes - Final Assignment.debug.xcconfig */,
+				B423A82C2CE65DB263194FB0 /* Pods-DC Superheroes - Final Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E0335FDBA007A1B8B1D86B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37F32FB719B4A4B3BA87E65 /* Pods_DC_Superheroes___Final_Assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B008F26A2962B263003AE5F1 = {
 			isa = PBXGroup;
 			children = (
 				B008F2752962B263003AE5F1 /* DC Superheroes - Final Assignment */,
 				B008F2742962B263003AE5F1 /* Products */,
+				3C1771E9EA8F477CD450AC1C /* Pods */,
+				5E0335FDBA007A1B8B1D86B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,84 @@
 		B008F2752962B263003AE5F1 /* DC Superheroes - Final Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				B008F2762962B263003AE5F1 /* AppDelegate.swift */,
-				B008F2782962B263003AE5F1 /* SceneDelegate.swift */,
-				B008F27A2962B263003AE5F1 /* ViewController.swift */,
-				B008F27C2962B263003AE5F1 /* Main.storyboard */,
-				B008F27F2962B264003AE5F1 /* Assets.xcassets */,
-				B008F2812962B264003AE5F1 /* LaunchScreen.storyboard */,
+				B06852F9296832DB00ECF441 /* Resources */,
+				B06852F72968329100ECF441 /* Storyboard */,
+				B06852F029682FC100ECF441 /* ViewController */,
+				B06852F3296831A000ECF441 /* Models */,
+				B06852F22968314F00ECF441 /* View */,
+				B06852F12968312D00ECF441 /* ViewModel */,
+				B06852F62968323F00ECF441 /* Networking */,
+				B06852F8296832A400ECF441 /* AppDelegate */,
 				B008F2842962B264003AE5F1 /* Info.plist */,
 			);
 			path = "DC Superheroes - Final Assignment";
+			sourceTree = "<group>";
+		};
+		B06852F029682FC100ECF441 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B008F27A2962B263003AE5F1 /* DCSuperheroesViewController.swift */,
+				B06852EC2968148900ECF441 /* DCSuperHeroesDetailsViewController.swift */,
+				B06852E8296748AC00ECF441 /* ErrorScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B06852F12968312D00ECF441 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B06852EE2968255000ECF441 /* DCSuperheroesTableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B06852F22968314F00ECF441 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B04C67C82962FDDD006462AF /* DCSuperheroesTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B06852F3296831A000ECF441 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B06852F4296831F000ECF441 /* SuperHeroesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B06852F62968323F00ECF441 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B06852E62964A07200ECF441 /* APICaller.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B06852F72968329100ECF441 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B008F2812962B264003AE5F1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B06852F8296832A400ECF441 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B008F2782962B263003AE5F1 /* SceneDelegate.swift */,
+				B008F2762962B263003AE5F1 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B06852F9296832DB00ECF441 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B008F27F2962B264003AE5F1 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B008F2872962B264003AE5F1 /* Build configuration list for PBXNativeTarget "DC Superheroes - Final Assignment" */;
 			buildPhases = (
+				9AECA7144E306587C653F3B7 /* [CP] Check Pods Manifest.lock */,
 				B008F26F2962B263003AE5F1 /* Sources */,
 				B008F2702962B263003AE5F1 /* Frameworks */,
 				B008F2712962B263003AE5F1 /* Resources */,
+				3187A11A3B485CF4812B46AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +232,73 @@
 			files = (
 				B008F2832962B264003AE5F1 /* LaunchScreen.storyboard in Resources */,
 				B008F2802962B264003AE5F1 /* Assets.xcassets in Resources */,
-				B008F27E2962B263003AE5F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3187A11A3B485CF4812B46AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DC Superheroes - Final Assignment/Pods-DC Superheroes - Final Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DC Superheroes - Final Assignment/Pods-DC Superheroes - Final Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DC Superheroes - Final Assignment/Pods-DC Superheroes - Final Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AECA7144E306587C653F3B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DC Superheroes - Final Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B008F26F2962B263003AE5F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B008F27B2962B263003AE5F1 /* ViewController.swift in Sources */,
+				B06852EF2968255000ECF441 /* DCSuperheroesTableViewModel.swift in Sources */,
+				B008F27B2962B263003AE5F1 /* DCSuperheroesViewController.swift in Sources */,
 				B008F2772962B263003AE5F1 /* AppDelegate.swift in Sources */,
+				B04C67C92962FDDD006462AF /* DCSuperheroesTableViewCell.swift in Sources */,
+				B06852F5296831F000ECF441 /* SuperHeroesModel.swift in Sources */,
+				B06852ED2968148900ECF441 /* DCSuperHeroesDetailsViewController.swift in Sources */,
+				B06852E72964A07200ECF441 /* APICaller.swift in Sources */,
 				B008F2792962B263003AE5F1 /* SceneDelegate.swift in Sources */,
+				B06852E9296748AC00ECF441 /* ErrorScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B008F27C2962B263003AE5F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B008F27D2962B263003AE5F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B008F2812962B264003AE5F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +426,7 @@
 		};
 		B008F2882962B264003AE5F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574417B58CBC32AC048E86F0 /* Pods-DC Superheroes - Final Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +437,6 @@
 				INFOPLIST_FILE = "DC Superheroes - Final Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +454,7 @@
 		};
 		B008F2892962B264003AE5F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B423A82C2CE65DB263194FB0 /* Pods-DC Superheroes - Final Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +465,6 @@
 				INFOPLIST_FILE = "DC Superheroes - Final Assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
